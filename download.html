@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        margin-bottom: 20px;
+        top: 0;
+        width: 100%;
+      }
+
+      .middle-section {
+        font-size: 100px;
+        font-family: arial;
+        margin-right: 500px;
+      }
+
+     
+
+      .back-button {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-right: 12px;
+          padding-left: 12px;
+          background-color: purple;
+          color: rgb(241, 241, 56);
+          border: none;
+          font-family: arial;
+          font-weight: bold;
+          border-radius: 6px;
+          margin-left: 4px;
+          margin-top: 4px;  
+        }
+
+        .back-button:hover {
+          cursor: pointer;
+          background-color: rgb(241, 241, 56);
+          color: purple;
+          transition: 0.15s;
+        }
+
+        body {
+          background-image: url(images/Derp.jpg);
+          margin: 0;
+        }
+        
+        .download-content {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-right: 12px;
+          padding-left: 12px;
+          background-color: purple;
+          color: rgb(241, 241, 56);
+          border: none;
+          font-family: arial;
+          font-weight: bold;
+          border-radius: 6px;
+          margin-left: 4px;
+          margin-top: 40px;
+          align-items: center;
+          width: 100%;
+        }
+
+        .download-content:hover {
+          cursor: pointer;
+          background-color: rgb(241, 241, 56);
+          color: purple;
+          transition: 0.15s;
+        }
+        
+        .download-content-container {
+          display: grid;
+          grid-template-columns: 200px;
+          margin-top: 200px;
+          margin-left: 550px;
+          margin-right: 550px;
+        }
+
+        .image {
+          width: 100%;
+        }      
+        
+        .video-grid-2 {
+          display: grid;
+          grid-template-columns: 200px;
+          
+        }
+
+     
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <div class="left-secction">
+          <a href="index.html">
+            <button class="back-button">
+              Back
+            </button>
+          </a>
+        </div>
+    
+        <div class="middle-section">
+          Download
+        </div>
+      </div>
+    </section>
+  
+  
+    <div class="download-content-container">
+      <img class="image" src="images/Nonce2.png">
+      <a href="you're fucking gay.png">
+        <button class="download-content">
+          Download Content
+        </button>
+      </a>
+    </div>
+  
+  
+</body>
+</html>
