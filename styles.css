@@ -42,6 +42,7 @@ body {
   font-family: arial;
   font-weight: bold;
   border-radius: 6px;
+  margin-right: 4px;
 }
 
 .about-button {
