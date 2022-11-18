@@ -149,6 +149,8 @@ video {
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
+  left: 0;
+  top: 0;
 }
 
 .middle-section-about {
