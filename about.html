@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="submit-button.css">
+    <style>
+      body {
+        background-image: url(images/Nonce2.png);
+        height: 2000px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+  <div class="body-2">
+    <div class="header">
+      <div class="left-secction">
+        <a href="index.html">
+          <button class="back-button">
+            Back
+          </button>
+        </a>
+      </div>
+  
+      <div class="middle-section-about">
+        About
+      </div>
+     </div>
+  
+      <p class="p2">
+        This site is a complete waste of time, you're welcome.
+      </p>
+  
+      <p class="p2">
+        Hey fuckface, why not donate?
+      </p>
+  
+      <div class="details-box">
+        <h1>Donate</h1>
+        <div class="form">
+          <form>
+            <input class="first-name" type="text" placeholder="First Name" required>
+            <input class="second-name" type="text" placeholder="Second Name" required>
+            <input class="acc-number" type="text" placeholder="Account Number" required>
+            <input class="sort-code" type="text" placeholder="Sort Code" required>
+            <input class="ccv" type="text" placeholder="CCV" required>
+          </form>
+          
+          <button class="Click-here">Submit</button>
+        </div>
+      </div>
+  
+      <div class="custom-model-main">
+        <div class="custom-model-inner">
+           <div class="close-btn">×</div>
+           <div class="custom-model-wrap">
+              <div class="pop-up-content-wrap">
+                 <h2>Thanks for the money bitch!</h2>
+                 <p class="p4">Now go fuck yourself, and yes, this actually took money out!</p>
+              </div>
+           </div>
+        </div>
+        <div class="bg-overlay"></div>
+     </div>
+      
+     <!-- jQuery -->
+     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+     <script>
+     $(".Click-here").on('click', function() {
+       $(".custom-model-main").addClass('model-open');
+     }); 
+     $(".close-btn, .bg-overlay").click(function(){
+       $(".custom-model-main").removeClass('model-open');
+     });
+     alert("Please click ok to admit you're gay");
+     </script>
+  
+  </div>
+   
+   
+  </body>
+</html>

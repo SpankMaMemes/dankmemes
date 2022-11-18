@@ -1,0 +1,462 @@
+/*index css*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  
+}
+
+
+
+.logo {
+  width: 100%;
+  height: 80px;
+  border-radius: 40px;
+}
+
+
+
+.right-section {
+  
+  margin-right: 100px;
+  margin-top: 8px
+}
+
+.download-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: purple;
+  color: rgb(241, 241, 56);
+  border: none;
+  font-family: arial;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+
+.about-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: purple;
+  color: rgb(241, 241, 56);
+  border: none;
+  font-family: arial;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+
+.download-button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 56);
+  color: purple;
+  transition: 0.15s;
+}
+
+.about-button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 56);
+  color: purple;
+  transition: 0.15s; 
+}
+
+.download-button:active {
+  opacity: 0.8;
+}
+
+.about-button:active {
+  opacity: 0.8;
+}
+
+.wtf-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: purple;
+  color: rgb(241, 241, 56);
+  border: none;
+  font-family: arial;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-right: 4px;
+}
+
+.wtf-button:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 56);
+  color: purple;
+  transition: 0.15s; 
+}
+
+.p1 {
+  display:inline-block;
+  margin-top: 100px;
+  margin-left: 4px;
+  font-family: arial;
+  font-size: 40px;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  border-color: red;
+  row-gap: 40px;
+  column-gap: 16px;
+  max-width: 1000px;
+  margin-left: 160px;
+}
+
+
+
+video {
+  width: 100%;
+}
+
+.title {
+  font-size: 20px;
+  font-family: arial;
+  background-color: purple;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 8px;
+  border-radius: 20px;
+  color: rgb(241, 241, 56);
+  box-shadow: (1, 1, 1, black);
+}
+
+.video-container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*about css*/
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.middle-section-about {
+  font-size: 100px;
+  font-family: arial;
+  margin-right: 550px;
+}
+
+.p2 {
+  display:inline-block;
+  margin-top: 120px;
+  margin-left: 4px;
+  font-family: arial;
+  font-size: 40px;
+  background-color: orange;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 4px;
+  padding-left: 4px;
+  border-radius: 12px;
+  }
+
+.back-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: purple;
+    color: rgb(241, 241, 56);
+    border: none;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 4px;        
+  }
+
+  .back-button:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 56);
+    color: purple;
+    transition: 0.15s;
+  }
+
+
+.details-box {
+  background-color: white;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 500px;
+  border-radius: 12px;
+}
+
+.first-name, .second-name,
+ .acc-number, .sort-code, .ccv {
+  height: 36px;
+  border-style: solid;
+  border-color: grey;
+  font-size: 16px;
+  font-family: arial;
+  border-radius: 12px;
+  margin-top: 4px;
+ }
+
+.first-name, .second-name, 
+.acc-number, .sort-code, .ccv::placeholder {
+  font-size: 16px;
+  font-family: arial;
+}
+
+input {
+  outline: none;
+  transition: 0.15s;
+}
+
+input:focus, input:active {
+  border-color: rgb(69, 123, 241);
+}
+
+form {
+  width: 500px;
+  
+}
+
+.ccv {
+  margin-left: 110px;
+}
+
+.Click-here {
+  margin-top: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 12px;
+  padding-left: 12px;
+  background-color: purple;
+  color: rgb(241, 241, 56);
+  border: none;
+  font-family: arial;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.Click-here:hover {
+  cursor: pointer;
+  background-color: rgb(241, 241, 56);
+  color: purple;
+  transition: 0.15s;
+}
+
+h1 {
+  font-family: arial;
+}
+
+/*download css*/
+
+.header-download {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  margin-bottom: 20px;
+  top: 0;
+  width: 100%;
+}
+
+.middle-section-download {
+  font-size: 100px;
+  font-family: arial;
+  margin-right: 500px;
+}
+
+
+
+.back-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: purple;
+    color: rgb(241, 241, 56);
+    border: none;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 4px;  
+  }
+
+  .back-button:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 56);
+    color: purple;
+    transition: 0.15s;
+  }
+
+  /*The download button css and animation located in button.html to avoid conflicting keyframes*/
+
+  .download-content:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 56);
+    color: purple;
+    transition: 0.15s;
+  }
+  
+  .download-content-container {
+    display: grid;
+    grid-template-columns: 200px;
+    margin-top: 200px;
+    margin-left: 550px;
+    margin-right: 550px;
+  }
+
+  .image {
+    width: 100%;
+  }      
+  
+  .video-grid-2 {
+    display: grid;
+    grid-template-columns: 200px;
+    
+  }
+
+/* WHAT THE FUCK CSS*/
+
+.header-wtf {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  z-index: 100;
+  
+}
+
+.middle-section-wtf {
+  font-size: 100px;
+  font-family: arial;
+  margin-left: 170px;
+}
+
+.back-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: purple;
+    color: rgb(241, 241, 56);
+    border: none;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 4px;
+    margin-top: 4px;        
+  }
+
+  .back-button:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 56);
+    color: purple;
+    transition: 0.15s;
+  }
+
+  .p3 {
+    margin-top: 200px;
+    font-family: arial;
+    font-size: 20px;
+    width: 400px;
+  }
+
+  .wtf {
+    margin-top: 600px;
+    margin-left: 500px;
+    position: relative;
+    background-image: linear-gradient(red, yellow, purple);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+  }
+  
+
+  .red-arrow {
+    width: 280px;
+    height: 400px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 500px;
+    z-index: 99;
+    animation: pulse 2s infinite;
+    
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      
+    }
+
+    50% {
+      transform: scale(1.5);
+      
+    }
+
+    100% {
+      transform: scale(0.95);
+      
+    }
+  }
+
+  .button-remove-filter-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    
+  }
+
+  .reveal-button {
+    width: 200px;
+    margin-left: 525px;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 12px;
+    padding-left: 12px;
+    background-color: purple;
+    color: rgb(241, 241, 56);
+    border: none;
+    font-family: arial;
+    font-weight: bold;
+    border-radius: 6px;
+    position: relative;
+  }
+  
+  .reveal-button:hover {
+    cursor: pointer;
+    background-color: rgb(241, 241, 56);
+    color: purple;
+    transition: 0.15s;
+  }
+
+  .blur-image {
+    position: absolute;
+    z-index: 1;
+    height: 225px;
+    width: 225px;
+    margin-left: 520px;
+    margin-top: -249px;
+  }
+
